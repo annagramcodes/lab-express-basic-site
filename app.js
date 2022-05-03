@@ -18,4 +18,8 @@ app.get('/works', (request, response, next) => {
 })
 
 
+app.get('/gallery', (request, response, next) => {
+    console.log(request);
+    response.sendFile(__dirname + '/public/views/gallery.html')
+})
 app.listen(3000, () => console.log('listening!'))

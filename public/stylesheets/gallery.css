@@ -1,0 +1,17 @@
+ul.gallery {
+  padding-top: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+ul.gallery > li {
+  list-style: none;
+  width: 25%;
+}
+
+ul.gallery > li > img {
+  width: 100%;
+}
