@@ -1,0 +1,40 @@
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-container {
+  padding: 2rem;
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.card {
+  flex: 1 1 30%;
+  font-size: 0.9rem;
+}
+
+.card p {
+  padding-right: 1.5rem;
+}
+
+.img-container > img {
+  max-width: 250px;
+}
+.img-container {
+  margin: 0 auto;
+}
+.chewie-model {
+  max-height: 300px;
+}

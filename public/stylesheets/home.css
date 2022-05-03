@@ -1,0 +1,43 @@
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+h1 {
+  font-size: 7rem;
+  
+}
+
+h2 {
+  font-size: 6rem;
+}
+
+body {
+  padding: 2rem 3rem;
+}
+
+.hero {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 5rem;
+}
+
+.btn-home {
+  background-color: var(--accent-color);
+  color: var(--soft-white);
+  padding: 0.5em 0.3em;
+  border: none;
+  box-shadow: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.btn-container {
+  padding-top: 2rem;
+  border: none;
+  box-shadow: none;
+}

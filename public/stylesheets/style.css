@@ -1,0 +1,43 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Subrayada', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+:root {
+  --accent-color: #e36648;
+  --soft-white: #f7f7f7;
+  --dk-gray: #494949;
+}
+
+body {
+  background-color: #232323;
+  color: var(--soft-white);
+  font-family: "Poppins";
+  padding: 2rem 3rem;
+}
+
+nav > ul > li {
+  list-style: none;
+  font-weight: 500;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: var(--soft-white);
+  font-size: 1.3rem;
+}
+
+.navbar > ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3rem;
+  gap: 3rem;
+}
+
+.red-link,
+.red-col {
+  color: var(--accent-color);
+}
+
+.grey-col {
+  color: var(--dk-gray);
+}
