@@ -7,7 +7,6 @@ h2 {
 
 h1 {
   font-size: 7rem;
-  
 }
 
 h2 {
@@ -40,4 +39,9 @@ body {
   padding-top: 2rem;
   border: none;
   box-shadow: none;
+}
+
+.btn-link {
+  color: var(--soft-white);
+  text-decoration: none;
 }
